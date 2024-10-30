@@ -13,7 +13,9 @@ const Post = ({ post }) => {
       <h4 className="text-red-600">Id:{id}</h4>
       <p>Title: {title}</p>
       <Link to={`/post/${id}`}>Click me</Link>
-      <button onClick={handelMe}>Go Back</button>
+      <button className="bg-purple-600" onClick={handelMe}>
+        Go Back
+      </button>
     </div>
   );
 };
